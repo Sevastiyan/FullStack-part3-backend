@@ -1,16 +1,16 @@
 GET http://localhost:3001/api/persons
 
 ###
-GET http://localhost:3001/x
+GET http://sevi-phonebook-app.herokuapp.com/x
 
 ###
-GET http://localhost:3001/api/persons/1
+GET http://sevi-phonebook-app.herokuapp.com/api/persons/1
 
 ###
-DELETE http://localhost:3001/api/persons/1
+DELETE http://sevi-phonebook-app.herokuapp.com/api/persons/1
 
 ###
-POST http://localhost:3001/api/persons HTTP/1.1
+POST http://sevi-phonebook-app.herokuapp.com/api/persons HTTP/1.1
 content-type: application/json
 
 {
